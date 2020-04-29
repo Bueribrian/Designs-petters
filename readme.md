@@ -2,7 +2,7 @@
 
 ## High order functions / Funciones de alta prioridad
 
-### ForEach
+#### ForEach
 
 Este metodo itera una variable especifica por todos los valores de las propiedades del objeto. para cada propiedad distinta, una sentencia especificada es ejecutada
 
