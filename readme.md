@@ -38,8 +38,20 @@ const newArray = array.map( tempVar => tempVar.length)
 **reduce()** ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor.
 
 ```
-const array = [1,2,3];
-const newArray = array.reduce((accumuletor, currentValue) =>            accumuletor + currentValue
-)
+const array = [1,2,3,4];
+const newArray = array.reduce((accumuletor, currentValue) =>          accumuletor + currentValue)
 
+// newArray = 10
+
+```
+
+### Find
+
+el metodo **find()** devuelve un nuevo array basadondose en la variable que coincida con el parametro indicado.
+
+```
+const myArray = ['Apple', 'Orange', 'Banana'];
+const myMatch = myArray.find( currentValue => currentValue === 'Banana' )
+
+myMatch = 'Banana'
 ```
